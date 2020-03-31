@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
                 Locale locale=null;
                 Toast.makeText(MainActivity.this,lanSpinner.getSelectedItem().toString(),Toast.LENGTH_LONG).show();
                 switch (lanSpinner.getSelectedItem().toString()){
-                    case "ru":{
+                    case "russian":{
                         locale=new Locale("ru");
                         break;
                     }
-                    case "en":{
+                    case "english":{
                         locale=new Locale("en");
                         break;
                     }
